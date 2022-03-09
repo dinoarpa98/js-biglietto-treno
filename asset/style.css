@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#contenitore_target{
+    border: 2px solid rgba(98, 29, 29, 0.671);
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    border-radius: 40px;
+}
