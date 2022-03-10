@@ -1,24 +1,27 @@
-const km = prompt("Quanti chilometri vuoi percorrere?") ;
-console.log(km);
+// const km = prompt("Quanti chilometri vuoi percorrere?") ;
+// console.log(km);
 
-const eta = prompt("Quanti anni hai?");
-console.log(eta);
+// const eta = prompt("Quanti anni hai?");
+// console.log(eta);
 
 const price = 0.21;
 
 let prezzo = (km * price) ;
 
+let minorenne = document.getElementById("offerta").innerHTML = `Biglietto standard`;
 
-if (eta < 18) {
+let over = document.getElementById("offerta").innerHTML = `Biglietto Over 65`;
+
+if (minorenne < 18) {
   let prezzoscontato = prezzo - (prezzo * 20 / 100);
   console.log(prezzoscontato)
-  document.getElementById("contenitore_target").innerHTML = ` il costo del tuo biglietto è ${prezzoscontato}€ `;
+ document.getElementById("offerta").innerHTML = `Biglietto standard`;
 }
 
-if (eta > 65) {
+if (over > 65) {
   let prezzoanziani = prezzo - (prezzo * 40 / 100) ;
   console.log(prezzoanziani);
-  document.getElementById("contenitore_target").innerHTML = ` il costo del tuo biglietto è ${prezzoanziani}€ `;
+  document.getElementById("offerta").innerHTML = `Biglietto Over 65`;
 }
 
 
