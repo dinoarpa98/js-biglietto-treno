@@ -44,7 +44,7 @@
             <select name="age" id="selezioneEta">
                 <option value="Standard" id="Standard">Standard</option>
                 <option value="Minorenne" id="Minorenne">Minorenne</option>
-                <option value="over65" id="Over65">Over 65</option>
+                <option value="Over65" id="Over65">Over 65</option>
             </select>
         </div>
 
@@ -56,39 +56,41 @@
         <button id="b-2">Annulla</button>
     </div>
 
-    <div class="container bg-light mt-5">
-        <div class="row">
-            <div class="col-4 bg-secondary">
-                <h4>NOME PASSEGGERO</h4>
-                <p id="nome-p"></p>
+
+
+    <h2 class="my-5 text-white text-center">IL TUO PREZZO DEL BIGLIETTO</h2>
+
+    <div id="biglietto" class="container bg-white border-3 py-5 px-5 shadow d-none">
+        <h3 class="text-uppercase">dettagli passeggeri</h3>
+        <div class="border border-dark row">
+            <div class="text-uppercase bg-secondary col-3 p-4">
+                <h3>nome passeggero</h3>
+                <span id="nomepasseggero">Nome Passeggero</span>
             </div>
 
-            <div class="col-8 d-flex">
-                <div>
-                    <h5 class="mx-4">Offerta</h5>
-                    <p id="offerta" class="text-center"></p>
+            <div class="col-9 row p-4">
+                <div class="col">
+                    <h3 class="mb-5">Offerta</h3>
+                    <span id="sconto">Sconto Minorenne</span>
                 </div>
 
-                <div>
-                    <h5 class="mx-4">Carrozza</h5>
-                    <p id="carrozza" class="text-center"></p>
+                <div class="col">
+                    <h3 class="mb-5">Carrozza</h3>
+                    <span id="nmb">2</span>
                 </div>
 
-
-                <div>
-                    <h5 class="mx-4">Codice CP</h5>
-                    <p id="codice" class="text-center"></p>
+                <div class="col">
+                    <h3 class="mb-5">Codice CP</h3>
+                    <span id="randomnumber">1000</span>
                 </div>
 
-                <div>
-                    <h5 class="mx-4">Costo biglietto</h5>
-                    <p id="costo" class="text-center"></p>
+                <div class="col">
+                    <h3 class="mb-5">Costo Biglietto</h3>
+                    <span id="prezzofinale">0.00€</span>
                 </div>
-
-
             </div>
+
         </div>
-
     </div>
 
 
