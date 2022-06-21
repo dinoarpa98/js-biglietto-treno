@@ -23,6 +23,7 @@ body {
 #km {
     margin: 0 20px;
     border-color: red;
+    color: red;
 }
 
 #km div {
@@ -58,16 +59,9 @@ body {
     margin: 0px 30px;
 }
 
-#b-1 {
+#b-1 , #b-2  {
     padding: 10px;
-    color: rgb(26, 4, 4);
-    background-color: gray;
+    color: rgb(0, 0, 0);
+    background-color: rgb(205, 218, 96);
     margin: 0 10px;
-}
-
-#b-2 {
-    padding: 5px;
-    color: rgb(44, 13, 13);
-    background-color: gray;
-    
 }
